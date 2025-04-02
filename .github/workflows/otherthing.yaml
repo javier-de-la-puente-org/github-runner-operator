@@ -6,5 +6,4 @@ jobs:
     steps:
         - name: sleep for 6 minutes
           run: |
-            sleep 360
-
+            sleep 30
