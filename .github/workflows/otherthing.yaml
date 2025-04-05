@@ -2,7 +2,8 @@ name: Some labels Test
 on: push
 jobs:
   build:
-    runs-on: ["self-hosted", "X64"]
+    # runs-on: ["self-hosted", "X64"]
+    runs-on: ["self-hosted", "X64", "tttt"]
     steps:
         - name: sleep for 6 minutes
           run: |
